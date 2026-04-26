@@ -1,0 +1,77 @@
+{
+  "category": "communication",
+  "subcategory": "messaging",
+  "name": "element",
+  "title": "Element Matrix Client",
+  "description": "Element is a secure, decentralized messaging and collaboration client built on the Matrix protocol. Element provides end-to-end encryption, voice/video calls, file sharing, and team collaboration features. As a free and open-source alternative to proprietary communication platforms like Slack, Microsoft Teams, or Discord, Element offers users complete control over their data and communications while maintaining compatibility with the federated Matrix network.",
+  "dependencies": [
+    "nodejs",
+    "npm",
+    "nginx",
+    "curl",
+    "wget",
+    "openssl"
+  ],
+  "default_ports": [
+    80,
+    443,
+    8008,
+    8448
+  ],
+  "supported_os": [
+    "rhel",
+    "debian",
+    "arch",
+    "alpine",
+    "suse",
+    "macos",
+    "windows"
+  ],
+  "difficulty_level": "intermediate",
+  "estimated_setup_time": "30-60 minutes",
+  "installation_methods": [
+    "package-manager",
+    "flatpak",
+    "snap",
+    "web-deployment",
+    "source"
+  ],
+  "license": "Apache License 2.0",
+  "spec_version": "2.0",
+  "maintenance_status": "active",
+  "created_date": "2025-09-23T00:00:00.000000",
+  "last_updated": "2025-09-23T00:00:00.000000",
+  "features": [
+    "multi-os-support",
+    "security-hardening",
+    "end-to-end-encryption",
+    "voice-video-calls",
+    "file-sharing",
+    "federation-support",
+    "self-hosting",
+    "web-deployment",
+    "desktop-application",
+    "mobile-support"
+  ],
+  "tags": [
+    "matrix",
+    "messaging",
+    "collaboration",
+    "encryption",
+    "federation",
+    "self-hosted",
+    "privacy",
+    "secure-communication",
+    "team-chat",
+    "voip",
+    "video-conferencing",
+    "decentralized",
+    "open-source",
+    "cross-platform"
+  ],
+  "repository_url": "https://github.com/howtomgr/element",
+  "documentation_url": "https://howtomgr.github.io/communication/element",
+  "website_url": "https://howtomgr.github.io/communication/element",
+  "guide_path": "/communication/element",
+  "version": "2.0.0"
+}
